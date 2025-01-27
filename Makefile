@@ -21,7 +21,7 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ) $(LIBFT_DIR)/libft.a Makefile
-	cc -Wall -Wextra -Werror $(OBJ) -L$(LIBFT_DIR) -lft -o $(NAME)
+	cc -Wall -Wextra -Werror $(OBJ) -L $(LIBFT_DIR) -lft -o $(NAME)
 
 $(LIBFT_DIR)/libft.a:
 	make -C $(LIBFT_DIR)
