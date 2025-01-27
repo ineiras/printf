@@ -5,7 +5,8 @@ The implemented function accepts an indefinite number of arguments and displays 
 - %c: Prints a single character. 
 - %s: Prints a string (as defined by default in C). 
 - %p: The given void * pointer is printed in hexadecimal format. 
-- %d/ %i: Prints a decimal number (base 10). 
+- %d: Prints a decimal number (base 10). (Same as %i)
+- %i: Prints a decimal number (base 10). (Same as %d)
 - %u: Prints an unsigned decimal number (base 10). 
 - %x: Prints a hexadecimal number (base 16) in lowercase. 
 - %X: Prints a hexadecimal number (base 16) in uppercase. 
